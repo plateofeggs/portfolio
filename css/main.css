@@ -20,6 +20,13 @@ body {
 	margin: 20px 0 0;
 }
 
-@media screen and (max-width: 420px) {
-
+@media screen and (max-width: 991px) {
+	img, .title-logo {
+		display: block;
+		margin: 12.5px auto;
+	}
+	h1, h2, h4 {
+		text-align: center;
+	}
 }
+
