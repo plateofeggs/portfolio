@@ -21,12 +21,17 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-	img, .title-logo {
+	.title-logo {
 		display: block;
+	}
+
+	img, .title-logo {
 		margin: 12.5px auto;
 	}
+
 	h1, h2, h4 {
 		text-align: center;
 	}
+	
 }
 
