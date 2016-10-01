@@ -18,13 +18,10 @@ body {
 
 .title-logo {
 	margin: 20px 0 0;
+	display: block;
 }
 
 @media screen and (max-width: 991px) {
-	.title-logo {
-		display: block;
-	}
-
 	img, .title-logo {
 		margin: 12.5px auto;
 	}
@@ -32,6 +29,6 @@ body {
 	h1, h2, h4 {
 		text-align: center;
 	}
-	
+
 }
 
